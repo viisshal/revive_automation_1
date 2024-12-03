@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.reviveTest.com.RevLoginPageTest">
+        <methods>
+          <include name="Advertiser_ListPage"/>
+          <include name="New_Manager_ListsPage"/>
+          <include name="Create_advertiser"/>
+          <include name="Manger_HomePage"/>
+          <include name="Add_NewBanner"/>
+          <include name="Add_NewCampaignPage"/>
+          <include name="Add_NewWebSitePage"/>
+          <include name="Campaign_ListPage"/>
+          <include name="FTP"/>
+          <include name="TC1"/>
+          <include name="Zone"/>
+          <include name="Create_New_Manager"/>
+          <include name="Admin_Navg_create_manager"/>
+          <include name="Add_NewWebSite_fieldsPage"/>
+          <include name="Admin_HomePage"/>
+          <include name="DB"/>
+        </methods>
+      </class> <!-- com.reviveTest.com.RevLoginPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
